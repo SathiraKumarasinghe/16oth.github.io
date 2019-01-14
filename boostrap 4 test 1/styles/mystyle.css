@@ -1,0 +1,40 @@
+body{
+
+
+    color: darkgray
+
+
+
+
+
+}
+.navbar{
+
+
+   border-bottom-color: rebeccapurple 3px solid
+   
+
+
+}
+#home-section{
+
+   background-attachment:"../ing/home/zd"
+   background-repeat:no-repeat;
+   background-size:cover;
+
+
+   
+}
+#home-section.dark-overlay{
+    
+       position: absolute;
+       top: 0;
+       left:0;
+       width:100%;
+       min-height: 700px;
+       background: rgba(0, 0, 0, 0);
+       
+
+
+}
+
