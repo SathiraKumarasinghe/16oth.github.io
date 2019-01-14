@@ -1,40 +1,31 @@
 body{
-
-
-    color: darkgray
-
-
-
-
-
+    background: #333;
+    color:#fff;
 }
+
 .navbar{
-
-
-   border-bottom-color: rebeccapurple 3px solid
-   
-
+    border-bottom: rgb(86, 156, 248) 3px solid;
+    opacity: 0.9;
 
 }
+
 #home-section{
-
-   background-attachment:"../ing/home/zd"
-   background-repeat:no-repeat;
-   background-size:cover;
-
-
-   
+    background: url('../Image/sea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px; 
+    
 }
 #home-section.dark-overlay{
-    
-       position: absolute;
-       top: 0;
-       left:0;
-       width:100%;
-       min-height: 700px;
-       background: rgba(0, 0, 0, 0);
-       
-
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 700px;
+    background: rgb(153, 151, 151)
 
 }
-
+#home-section.home-inner{
+    padding: 
+}
